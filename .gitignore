@@ -1,0 +1,5 @@
+*.log
+.env
+__pycache__
+.pytest_cache
+Q1/.pytest_cache
