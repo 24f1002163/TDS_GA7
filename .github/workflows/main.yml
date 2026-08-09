@@ -25,7 +25,7 @@ jobs:
           uvicorn app:app --host 0.0.0.0 --port 8000 &
           sleep 3
 
-      - name: TDS identity: 24f1002163@ds.study.iitm.ac.in
+      - name: "TDS identity: 24f1002163@ds.study.iitm.ac.in"
         run: echo "TDS identity: 24f1002163@ds.study.iitm.ac.in"
 
       - name: Test the endpoint
